@@ -34,15 +34,28 @@
     }
   }
 
+  .edit {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    color: #bfbbbb;
+    cursor: pointer;
+
+    &:hover {
+      color: #545353;
+    }
+  }
+
   .remove {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    color: #ff6b6b;
+    color: #ff8787;
     cursor: pointer;
 
     &:hover {
-      color: #ff8787;
+      color: #ff6b6b;
     }
   }
 

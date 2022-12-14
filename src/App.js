@@ -55,7 +55,6 @@ function App() {
     [todos]
   );
 
-  // const [insertToggle, setInsertToggle] = useState(false);
   return (
     <TodoTemplate>
       <TodoInsert onInsert={onInsert} />
